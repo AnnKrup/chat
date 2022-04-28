@@ -1,0 +1,107 @@
+.mainChat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    border-left: 1px solid darkgray;
+}
+
+.userMessageImg {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.userMessageImgWrapper {
+    height: 40px;
+    width: 40px;
+    margin: 0 15px 15px 10px;
+}
+
+.imgActive {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: -22px;
+    left: 30px;
+}
+
+.mainUserMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.chat {
+    max-height: calc(100vh - 197px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.form {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 40px 0 40px;
+    margin-bottom: 40px;
+    border-top: 1px solid gray;
+}
+
+.form > input:first-child {
+    margin: 0 auto;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 32px 10px 10px ;
+    border: 1px solid gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.userMessageText {
+    background-color: black;
+    color: white;
+}
+
+.mainUserMessageText {
+    background-color: darkgray;
+}
+
+.mainUserMessageText, .userMessageText {
+    min-width: 100px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    overflow-wrap: break-word;
+}
+
+.btn {
+    position: relative;
+    bottom: -8px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.userMessageWrapper {
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.userMessage {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 100px);
+}
+
+.messageDate {
+    text-align: left;
+    font-size: 10px;
+    padding: 5px 15px;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+}
+
